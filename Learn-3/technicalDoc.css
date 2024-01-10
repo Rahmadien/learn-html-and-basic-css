@@ -1,0 +1,96 @@
+html {
+    width: 100vw;
+    line-height: 1.5;
+    color: #393646;
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: 2px double #393646;
+}
+
+header {
+    margin: 10px;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#navbar ul {
+    overflow: hidden;
+    height: 85%;
+    padding: 0;
+}
+
+#navbar li {
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid;
+}
+
+#navbar li:last-of-type {
+    border-bottom: 1px solid;
+} 
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #393646;
+    cursor: pointer;
+}
+
+#navbar a:active {
+    background-color: #a5a5a5;
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 300px;
+    padding: 10px;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0;
+}
+
+#main-doc article {
+    font-size: 0.9rem;
+}
+
+#main-doc code {
+    position: relative;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    line-height: 2;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+#main-doc a {
+    color: #393646;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        width: 150px;
+    }
+
+    #navbar header {
+        font-size: 1rem;
+    }
+
+    #main-doc {
+        margin-left: 150px;
+    }
+}
