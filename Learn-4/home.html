@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="logo-header">
+            <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/5930/5930234.png" alt="getflix logo">
+            <h1>Getflix</h1>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#price" class="nav-link">Price</a></li>
+                <li><a href="#register" class="nav-link">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="profile">
+            <div class="profile-container">
+                <div class="text-profile">
+                    <h2>An App to watch your favorite movies</h2>
+                    <p>Watch your favorite movies by exploring Getflix further. Many genres are available. You can subscribe and cancel anytime. Start your subscription to enjoy Getflix.</p>
+                    <a href="#about"><button>Get Started</button></a>
+                </div>
+                <div class="video-profile">
+                <iframe id="video" src="https://www.youtube.com/embed/vlDzYIIOYmM?si=o8pmp_kbVBy_3hxt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="price">
+            <h1>Packet Price</h1>
+            <div class="packet-price">
+            <div class="cat-price">
+                <div class="packet">Premium</div>
+                <h2>$2.99</h2>
+                <ol>
+                    <li>One Month Access</li>
+                    <li>Set Quality to 1080p</li>
+                    <li>Access All Movies</li>
+                </ol>
+            </div>
+            <div class="cat-price">
+                <div class="packet">Diamond</div>
+                <h2>$3.99</h2>
+                <ol>
+                    <li>One Month Access</li>
+                    <li>Set Quality to 1080p</li>
+                    <li>Access All Movies</li>
+                </ol>
+            </div>
+            <div class="cat-price">
+                <div class="packet">Super</div>
+                <h2>$4.99</h2>
+                <ol>
+                    <li>One Month Access</li>
+                    <li>Set Quality to 1080p</li>
+                    <li>Access All Movies</li>
+                </ol>
+            </div>
+        </div>
+        </section>
+        <section id="register">
+            <h1>Register</h1>
+            <div class="reg-container">
+                <h3>Subscribe to getflix by filling out the form below</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder="Enter your Email Address" required>
+                    <input id="submit" type="submit" value="Register" class="btn">
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+      </footer>
+</body>
+</html>
